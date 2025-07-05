@@ -1,8 +1,10 @@
+
+
 /*
  * XUDK - Xbitlet UEFI Development Kit
  * Professional UEFI Development Framework for Complex Applications
  * Designed for: Bootloaders, Firmware Tools, System Utilities
- * Version 2.1 - Now with GPU Acceleration Support
+ * Version 2.1 
  */
 
 #ifndef XUDK_H
