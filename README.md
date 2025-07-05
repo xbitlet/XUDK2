@@ -162,15 +162,6 @@ ctx->gpu.end_recording(ctx, &cmd_buffer);
 ctx->gpu.submit_command_buffer(ctx, &cmd_buffer);
 ```
 
-## 📚 Documentation
-
-- [**Getting Started Guide**](docs/getting-started.md) - Your first XUDK application
-- [**API Reference**](docs/api-reference.md) - Complete function documentation
-- [**GPU Programming Guide**](docs/gpu-programming.md) - Hardware acceleration
-- [**Advanced Topics**](docs/advanced.md) - Memory management, networking, etc.
-- [**Examples**](examples/) - Real-world applications and tutorials
-- [**FAQ**](docs/faq.md) - Common questions and solutions
-
 ## 🔧 Examples
 
 ### GPU-Accelerated Boot Menu
