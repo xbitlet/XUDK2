@@ -114,7 +114,7 @@ Develop powerful recovery solutions:
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                    XUDK Application Layer                    │
+│                    XUDK Application Layer                   │
 ├─────────────────────────────────────────────────────────────┤
 │  Console  │  Input   │  Storage  │  Network  │  GPU  │ Boot │
 ├─────────────────────────────────────────────────────────────┤
@@ -250,36 +250,7 @@ The Xbitlet Open License allows:
 - **Training**: [XUDK Training Programs](https://training.xbitlet.com)
 - **Consulting**: [Professional Services](https://consulting.xbitlet.com)
 
-## 🏆 Sponsors
 
-Special thanks to our sponsors who make XUDK development possible:
-
-<div align="center">
-
-[![Sponsor 1](https://img.shields.io/badge/Sponsor-TechCorp-blue?style=for-the-badge)](https://techcorp.example.com)
-[![Sponsor 2](https://img.shields.io/badge/Sponsor-DevSolutions-green?style=for-the-badge)](https://devsolutions.example.com)
-
-</div>
-
-## 🎯 Roadmap
-
-### Version 2.2 (Q2 2024)
-- [ ] Vulkan API support
-- [ ] WebAssembly runtime
-- [ ] Advanced security features
-- [ ] Performance optimizations
-
-### Version 2.3 (Q3 2024)
-- [ ] Neural network acceleration
-- [ ] Advanced AI features
-- [ ] Cloud integration
-- [ ] Mobile device support
-
-### Version 3.0 (Q4 2024)
-- [ ] Complete API redesign
-- [ ] Multi-threading support
-- [ ] Advanced debugging tools
-- [ ] Plugin architecture
 
 ## 📊 Statistics
 
