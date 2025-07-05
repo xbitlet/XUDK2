@@ -1,6 +1,6 @@
 #include <stdint.h>
 #include <stddef.h>
-
+#include "XUDK/Uefi.h"
 
 // =============================================================================
 // CORE TYPES & CONSTANTS
@@ -42,25 +42,3 @@ typedef u32       pid;     // Process/Protocol ID
 #define XUDK_SHADER_COMPILE_ERROR  0x8000000000000029ULL
 #define XUDK_TEXTURE_ERROR         0x800000000000002AULL
 #define XUDK_BUFFER_OVERFLOW       0x800000000000002BULL
-
-// Memory types for advanced memory management
-typedef enum {
-    XUDK_MEM_RESERVED = 0,
-    XUDK_MEM_LOADER_CODE,
-    XUDK_MEM_LOADER_DATA,
-    XUDK_MEM_BOOT_CODE,
-    XUDK_MEM_BOOT_DATA,
-    XUDK_MEM_RUNTIME_CODE,
-    XUDK_MEM_RUNTIME_DATA,
-    XUDK_MEM_CONVENTIONAL,
-    XUDK_MEM_UNUSABLE,
-    XUDK_MEM_ACPI_RECLAIM,
-    XUDK_MEM_ACPI_NVS,
-    XUDK_MEM_MMIO,
-    XUDK_MEM_MMIO_PORT,
-    XUDK_MEM_PAL_CODE,
-    XUDK_MEM_PERSISTENT,
-    XUDK_MEM_GPU_VRAM,
-    XUDK_MEM_GPU_SHARED
-} xudk_mem_type;
-
